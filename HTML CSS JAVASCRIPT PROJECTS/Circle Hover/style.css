@@ -1,0 +1,35 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+  }
+  
+  body{
+    height: 100vh;
+    padding: 22px;
+    display: flex;
+    flex-direction:column;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(#00F5FF,#8EC3B0);
+  }
+
+  #circle{
+    color: #FDFDFD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+    background: radial-gradient(#4f7ad6,#5daedd);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 2s;
+}
+
+  .hover{
+    transform: scale(2);
+    transition: 3;
+    font-size: 13px;
+  }

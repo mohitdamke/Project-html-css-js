@@ -1,0 +1,36 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+  }
+  
+  body{
+    height: 100vh;
+    padding: 22px;
+    display: flex;
+    flex-direction:column;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(#00F5FF,#8EC3B0);
+  }
+  
+  
+  
+  .dora{
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .dora0{
+    display: none;
+  }
+  
+  .dora1{
+    display: none;
+  }
+  
+  .active{
+    display: block;
+  }
+  

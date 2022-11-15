@@ -1,0 +1,32 @@
+*{
+    font-family: sans-serif;
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    justify-items: center;
+    background-color: aliceblue;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    height: 100vh;
+    padding: 3rem;
+}
+
+#item{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#item div{
+    padding: 3rem;
+    background: linear-gradient(#8579ee, #A1EAFB);
+    margin: 1rem;
+    color: white;
+    border-radius: 30px;
+    font-size: 2rem;
+    text-align: center;
+
+}
